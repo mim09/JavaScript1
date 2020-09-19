@@ -18,8 +18,8 @@ let books =[{
     alreadyRead: false
     }
 ]
-let x;
-for (x of books){
+
+for (let x of books){
     if(x['alreadyRead']===true){
         console.log('You already read '+ x.title); //prints out the book title when alreadyRead value is true
     }

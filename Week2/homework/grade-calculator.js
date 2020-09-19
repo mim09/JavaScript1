@@ -1,6 +1,4 @@
 
-let val; //declare variable val
- 
 //A function that prints out grade and the value of val if the condition of the if / of else if fulfills
 function grade(val){
     if((val>=0)&&(val <= 49)){   
