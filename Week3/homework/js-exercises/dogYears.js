@@ -1,10 +1,10 @@
 // Exercise 2: Dog years
 "use strict";
-//create a function with humanYear argument
+//create a function with humanYear as an argument
 function calculateDogAge(humanYear) {
   let dogYear = humanYear * 7; // dog year is humanYear multiplied by 7.
   console.log(`Your doggie is ${dogYear} years old in dog years!"`); //print out dogYear as a result
 }
 calculateDogAge(7);
-calculateDogAge(7);
-calculateDogAge(7);
+calculateDogAge(6);
+calculateDogAge(3);
